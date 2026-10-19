@@ -1793,43 +1793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9e2b6b137a722418d7c4aafaaba75d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManagerScript
-  dircardPile:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  discardPile: []
   drawPile:
   - {fileID: 0}
   - {fileID: 0}
@@ -1905,6 +1869,9 @@ MonoBehaviour:
   - {fileID: 6121036503582781221, guid: 3b011c1392e8a494e98369258dfa4be8, type: 3}
   - {fileID: 264236914018141457, guid: 930f311549ef6084689e79b2dd0a775e, type: 3}
   addCardToHandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cardIndexEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1997823138

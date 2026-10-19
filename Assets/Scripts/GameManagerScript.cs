@@ -14,6 +14,12 @@ public class GameManagerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public UnityEvent<GameObject> addCardToHandEvent = new UnityEvent<GameObject>();
+    public UnityEvent<int> cardIndexEvent = new UnityEvent<int>();
+
+    public void PublishCardIndex(int index)
+    {
+        cardIndexEvent.Invoke(index);
+    }
 
     private void Awake()
     {
@@ -28,7 +34,7 @@ public class GameManagerScript : MonoBehaviour
     }
     void Start()
     {
-        drawPile = Shuffle(deck);
+        drawPile = Shuffle(new List<GameObject>(deck));
         AddCardToHand(5);
     }
 
@@ -51,7 +57,7 @@ public class GameManagerScript : MonoBehaviour
         for(int i=0; i<howMany; i++)
         {
             addCardToHandEvent.Invoke(drawPile[i]);
-            drawPile[i] = null;
+            drawPile.Remove(drawPile[i]);
         }
     }
 }
