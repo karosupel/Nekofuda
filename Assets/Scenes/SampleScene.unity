@@ -1613,6 +1613,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9e2b6b137a722418d7c4aafaaba75d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManagerScript
+  dircardPile:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  drawPile:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  deck:
+  - {fileID: 3124166515741210874, guid: be7355d7f1d0329418a032b687d8f5b2, type: 3}
+  - {fileID: 3628843549735963832, guid: ad5f7d951d481ef46ba1a75cb524e88b, type: 3}
+  - {fileID: 3657731226206505568, guid: 71e38c3123a182a40954d35387616ce3, type: 3}
+  - {fileID: 4124177206603828088, guid: 053e1625398dc1a478ab97c8bc0bccb9, type: 3}
+  - {fileID: 5771159198312120785, guid: 99b7e08e68b0ae94aa0e6459fe38bfb7, type: 3}
+  - {fileID: 49916314755434670, guid: 15a7f6d592c5e4d4eb0642b36d52bec3, type: 3}
+  - {fileID: 3269850492232869585, guid: 08e151b7e5db72d47a2f47a5976e97de, type: 3}
+  - {fileID: 7112665166236347547, guid: db1771204d8728b449ed1dfbeefe76d6, type: 3}
+  - {fileID: 6859347518875089295, guid: e272806ca81c33e4d8557b478582aa4f, type: 3}
+  - {fileID: 7860544875724062583, guid: e2994ba501da90d479ad0601b1d8d0bb, type: 3}
+  - {fileID: 1495203294087351220, guid: 867e9b4683f5f8244aff821bee081876, type: 3}
+  - {fileID: 1936748802757482830, guid: 73b18be681eef03479ae551dc4b8eebb, type: 3}
+  - {fileID: 9046313998145160764, guid: 3c2a3042a2167464c83760e9344296ba, type: 3}
+  - {fileID: 4449059192438832421, guid: 014faa564ec4ce743ad04bb63d6ea7d0, type: 3}
+  - {fileID: 3253964594745000879, guid: b94f7000d25e77b47bfd2b0d748f99db, type: 3}
+  - {fileID: 4754379356261835033, guid: 5646df80a10b1b7468f5b3263f988547, type: 3}
+  - {fileID: 7425999546735936362, guid: 5acd7cb40cf74a64fbe6b5962288a179, type: 3}
+  - {fileID: 5218676768772579634, guid: 41ff5fcfba847804a8052e3b4a29094c, type: 3}
+  - {fileID: 6097154710242184630, guid: 259f0bac28d14124c8c22526fe113a4e, type: 3}
+  - {fileID: 3177751128361840300, guid: 7938b27cd08991e499a7136a9af1ba7d, type: 3}
+  - {fileID: 7710521913218723518, guid: c753f03bc4cdc4f42bd6694da6163169, type: 3}
+  - {fileID: 7613973798989558132, guid: 5b3baeb5dc5c9874fa535a43cf0aa642, type: 3}
+  - {fileID: 526749312650262682, guid: f025188db2133154e9a1f171ae6b08aa, type: 3}
+  - {fileID: 5687666139107544154, guid: 3b5bac1dae9511446a642f3d87e0074a, type: 3}
+  - {fileID: 5422622187753853116, guid: a233555d61969ce478b8875087a139dc, type: 3}
+  - {fileID: 5205286381009084736, guid: 0127b2ebc2dad3941a6d9d38e1d3e88f, type: 3}
+  - {fileID: 6531373966199182689, guid: 4357b7e70d3e6bd499c0ead59cdd53b9, type: 3}
+  - {fileID: 4518068489100151664, guid: cb39b74643ead1e42aefa407e0be8d69, type: 3}
+  - {fileID: 4490630611603032846, guid: 662f40a3ff6da3f41a75f365a0341c45, type: 3}
+  - {fileID: 6003229234505298513, guid: 09dc3fe8f073b6649b3140d055e2ab1d, type: 3}
+  - {fileID: 8443454288863472146, guid: 8b47a207c737c9f42882b97f2dcb01e9, type: 3}
+  - {fileID: 5170777209075212962, guid: d960b01828aa1a84eb134af963e2ffeb, type: 3}
+  - {fileID: 775518014123806750, guid: 067189507b38ade49ac7e99ffdbf9443, type: 3}
+  - {fileID: 7219394903006253464, guid: a9b3da818eca1794c9d8beecdb911931, type: 3}
+  - {fileID: 6121036503582781221, guid: 3b011c1392e8a494e98369258dfa4be8, type: 3}
+  - {fileID: 264236914018141457, guid: 930f311549ef6084689e79b2dd0a775e, type: 3}
 --- !u!1 &1997823138
 GameObject:
   m_ObjectHideFlags: 0
